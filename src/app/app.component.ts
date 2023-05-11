@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wd17309';
+  user =
+    {
+      name: 'John',
+      age: 25,
+      gender: 'male',
+      masv: '17309',
+    }
+
 }
