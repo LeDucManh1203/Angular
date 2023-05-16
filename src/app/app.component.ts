@@ -14,5 +14,6 @@ export class AppComponent {
       gender: 'male',
       masv: '17309',
     }
+    
 
 }
