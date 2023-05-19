@@ -15,6 +15,10 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { LayoutAdminComponent } from './components/dayouts/layout-admin/layout-admin.component';
+import { LayoutComponent } from './components/dayouts/layout/layout.component';
+import { DashboradComponent } from './pages/admin/dashborad/dashborad.component';
+import { ProductsComponent } from './pages/admin/products/products.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,11 @@ import { MatSelectModule } from '@angular/material/select';
     CategoryComponent,
     NotFoundComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    LayoutAdminComponent,
+    LayoutComponent,
+    DashboradComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
